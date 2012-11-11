@@ -1,4 +1,7 @@
 Todo::Application.routes.draw do
+  
+  get "todos/index"
+
   get "pages/products"
 
   get "pages/contacts"
