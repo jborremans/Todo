@@ -1,8 +1,25 @@
 <title> Shared Todo App </title>
+<div class="navbar">
+  <div class="navbar-inner">
+    <a class="brand" href="#"><i class="icon-ok"> </i>List of Things to Do</a>
+    <ul class="nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+    </ul>
+  </div>
+  <div class="container">
+  <div class="row">
+  <div class="span4">  
 <h1>Shared To Do App</h1>
-<h3>To do List</h3>
+<hr>
+<p>All my To Do items</p>
+<div class="well">
+
 <% @todo_items.each do |i| %>
 <li><%= i.todo_item %></li>
 <% end %>
-
-
+</div>
+</div>
+</div>
+</div>
