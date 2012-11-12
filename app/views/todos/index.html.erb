@@ -1,18 +1,20 @@
 <title> Shared Todo App </title>
 <div class="navbar">
   <div class="navbar-inner">
-    <a class="brand" href="#"><i class="icon-ok"> </i>List of Things to Do</a>
+    <a class="brand" href="#"><i class="icon-pencil"></i> List of Things to Do</a>
     <ul class="nav">
         <li class="active"><a href="#">Home</a></li>
         <li><a href="#">Link</a></li>
         <li><a href="#">Link</a></li>
     </ul>
   </div>
+  </div>
   <div class="container">
   <div class="row">
-  <div class="span4">  
+  <div class="span9">  
 <h1>Shared To Do App</h1>
-<hr>
+ <div class="container">
+    <div class="span4">
 <p>All my To Do items</p>
 <div class="well">
 
@@ -20,6 +22,11 @@
 <li><%= i.todo_item %></li>
 <% end %>
 </div>
+<p>
+<button class="btn btn-danger btn-small btn-primary" type="button">Delete button</button>
+</p>
 </div>
 </div>
 </div>
+
+
