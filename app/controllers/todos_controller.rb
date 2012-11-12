@@ -3,4 +3,8 @@ class TodosController < ApplicationController
     @todo_items = MustDo.all
   end
   
+  def add
+    redirect_to "/todos/index"
+  end
+  
 end

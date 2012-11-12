@@ -2,6 +2,7 @@ Todo::Application.routes.draw do
   
   root :to => 'todos#index'
   get "todos/index"
+  match "todos/add"=> "todos#add" , :via => 'post'
 
   get "pages/products"
 
